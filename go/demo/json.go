@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 )
 
-// START OMIT
 type User struct{
 	id int
 	name string
@@ -21,4 +20,3 @@ func main() {
 	}
 	fmt.Printf("Hello %s", user.name)
 }
-// END OMIT
