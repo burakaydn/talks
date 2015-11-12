@@ -1,0 +1,26 @@
+Building REST API with GoLang
+14 Nov 2015
+
+Burak AYDIN
+burak@4pps.co
+@burakaydn
+
+* Why Go
+
+* Comparin Go and Java
+
+* Hello.go/java
+
+* Json in Go
+
+* Webserver
+
+* net/http
+
+* Mux
+
+* Standard packages
+
+* 3rd party packages
+
+* Go tools
