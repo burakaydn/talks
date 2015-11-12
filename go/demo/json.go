@@ -1,5 +1,5 @@
 // +build OMIT
-package main
+package json
 
 import (
 	"fmt"
