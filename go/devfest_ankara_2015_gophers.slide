@@ -1,8 +1,8 @@
 Building REST API with GoLang
-https://go-talks.appspot.com/github.com/burakaydn/talks/go/devfest_ankara_2015_gophers.slide#5
 14 Nov 2015
 
 Burak AYDIN
+4PPS
 burak@4pps.co
 @burakaydn
 
@@ -14,11 +14,11 @@ burak@4pps.co
 
 * Performance
 
-- http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/
+.link http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/
 
 * JSON in Go
 
-.image go_tags.png _ 600
+.image demo/img/go_tags.png _ 600
 
 * JSON in Go
 
@@ -34,20 +34,18 @@ burak@4pps.co
 
 .play demo/http.go /package main/,
 
-#* Http handler
-
 * Mux
 - ServeMux is an HTTP request multiplexer.
 
-.play demo/mux.go /packge main/,
+.play demo/mux.go /package main/,
 
 * x/net/context
 _A_Context_carries_a_deadline,_a_cancelation_signal,_and_other_values_across_API_boundaries._
 
 * Needs for REST API
 
-- routing
-- middleware
+- Routing
+- Middleware
 - Authentication
 - CORS
 - Hot code reloading
@@ -60,7 +58,7 @@ _A_Context_carries_a_deadline,_a_cancelation_signal,_and_other_values_across_API
 - net/http (routing, middleware, auth, CORS)
 - log
 
-* 3rd Party Packages
+* Web Frameworks
 
 - Martini
 - Gin

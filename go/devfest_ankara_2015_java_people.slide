@@ -2,6 +2,7 @@ Building REST API with GoLang
 14 Nov 2015
 
 Burak AYDIN
+4PPS
 burak@4pps.co
 @burakaydn
 
@@ -10,6 +11,8 @@ burak@4pps.co
 - Micro services hype
 - Easy deployment
 - Performance
+
+.link http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/
 
 * Comparing Go and Java
 
@@ -33,6 +36,7 @@ burak@4pps.co
 
 - Do something very well, but don't do so much.
 - No news is good news.
+- Perfect?
 
 * Hello.go/java
 
@@ -42,11 +46,19 @@ Hello.java
 Hello.go
 .play demo/hello.go
 
+* JSON in Go
+
+.image demo/img/go_tags.png _ 600
+
 * Json in Go
 
 - "encoding/json"
 - Unmarshal/Marshal
 - Encoder/Decoder
+
+* Json in Go
+
+.play demo/json.go /package main/,
 
 * Webserver
 
@@ -56,12 +68,12 @@ Hello.go
 
 - ServeMux is an HTTP request multiplexer.
 
-.play demo/mux.go /packge main/,
+.play demo/mux.go /package main/,
 
 * Needs for REST API
 
-- routing
-- middleware
+- Routing
+- Middleware
 - Authentication
 - CORS
 - Hot code reloading
@@ -74,7 +86,7 @@ Hello.go
 - net/http (routing, middleware, auth, CORS)
 - log
 
-* 3rd Party Packages
+* Web Frameworks
 
 - Martini
 - Gin
@@ -103,3 +115,5 @@ Hello.go
 - go present
 
 * Go Mobile
+
+.link https://godoc.org/golang.org/x/mobile
