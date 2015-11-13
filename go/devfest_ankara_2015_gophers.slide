@@ -22,7 +22,7 @@ http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-s
 
 * JSON in Go
 
-.play demo/json.go /type User/,
+.play demo/dates.go /func main/,
 
 * net/http
 
