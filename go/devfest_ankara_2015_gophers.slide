@@ -14,7 +14,7 @@ burak@4pps.co
 
 * Performance
 
-http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/
+- http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity/
 
 * JSON in Go
 
@@ -22,20 +22,60 @@ http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-s
 
 * JSON in Go
 
-.play demo/json_.go /func main/,
+- "encoding/json"
+- Unmarshal/Marshal
+- Encoder/Decoder
 
-* net/http
+* JSON in Go
+
+.play demo/json.go /package main/,
 
 * Basic Web Server
 
-* Http handler
+.play demo/http.go /package main/,
+
+#* Http handler
 
 * Mux
+- ServeMux is an HTTP request multiplexer.
+
+.play demo/mux.go /packge main/,
+
+* x/net/context
+_A_Context_carries_a_deadline,_a_cancelation_signal,_and_other_values_across_API_boundaries._
 
 * Needs for REST API
 
+- routing
+- middleware
+- Authentication
+- CORS
+- Hot code reloading
+- Easy db access
+- Context sharing
+- Logging
+
 * Standard Packages
+
+- net/http (routing, middleware, auth, CORS)
+- log
 
 * 3rd Party Packages
 
+- Martini
+- Gin
+- Revel
+
+* 3rd Party Packages
+
+- Negroni (Middleware)
+- codegangsta/gin (Hot code reload)
+- Jmorion/sqlx
+- rs/cors
+- markbates/goth
+- gorilla/pat
+- gorilla/context
+
 * Gorilla Toolkit
+
+.link http://gorillatoolkit.org/

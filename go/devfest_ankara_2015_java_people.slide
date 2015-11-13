@@ -7,20 +7,99 @@ burak@4pps.co
 
 * Why Go
 
-* Comparin Go and Java
+- Micro services hype
+- Easy deployment
+- Performance
+
+* Comparing Go and Java
+
+* Commons
+
+- Static Types
+- Garbage Collection
+- Variables are always initialized (zero/nil/false)
+- Methods
+- Interfaces
+
+* Differs
+
+- Go compiles to machine code. 
+- Function values, closures
+- Strings UTF-8
+- Built-in concurreny
+- Go has great tools!
+
+* Go Mentality
+
+- Do something very well, but don't do so much.
+- No news is good news.
 
 * Hello.go/java
 
+Hello.java
+.code demo/hello.java
+
+Hello.go
+.play demo/hello.go
+
 * Json in Go
+
+- "encoding/json"
+- Unmarshal/Marshal
+- Encoder/Decoder
 
 * Webserver
 
-* net/http
+.play demo/http.go /package main/,
 
 * Mux
 
+- ServeMux is an HTTP request multiplexer.
+
+.play demo/mux.go /packge main/,
+
+* Needs for REST API
+
+- routing
+- middleware
+- Authentication
+- CORS
+- Hot code reloading
+- Easy db access
+- Context sharing
+- Logging
+
 * Standard packages
 
-* 3rd party packages
+- net/http (routing, middleware, auth, CORS)
+- log
+
+* 3rd Party Packages
+
+- Martini
+- Gin
+- Revel
+
+* 3rd Party Packages
+
+- Negroni (Middleware)
+- codegangsta/gin (Hot code reload)
+- Jmorion/sqlx
+- rs/cors
+- markbates/goth
+- gorilla/pat
+- gorilla/context
+
+* Gorilla Toolkit
+
+.link http://gorillatoolkit.org/
 
 * Go tools
+
+.link https://godoc.org/golang.org/x/tools
+
+- go fmt
+- go vet
+- go present
+
+* Go Mobile
