@@ -38,13 +38,21 @@ burak@4pps.co
 - No news is good news.
 - Perfect?
 
-* Hello.go/java
+* Hello
 
 Hello.java
-.code demo/hello.java
+
+	public class Main {
+		public static void main(String[] args) {
+			System.out.println("Hello, world!");
+		}
+	}
 
 Hello.go
-.play demo/hello.go
+
+	func main() {
+		fmt.Println("Hello, Go")
+	}
 
 * JSON in Go
 
@@ -94,9 +102,9 @@ Hello.go
 
 * 3rd Party Packages
 
-- Negroni (Middleware)
+- negroni (Middleware)
 - codegangsta/gin (Hot code reload)
-- Jmorion/sqlx
+- jmorion/sqlx
 - rs/cors
 - markbates/goth
 - gorilla/pat
